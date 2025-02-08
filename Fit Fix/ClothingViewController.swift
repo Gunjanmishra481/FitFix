@@ -31,7 +31,7 @@ class ClothingViewController: UIViewController, UICollectionViewDelegate, UIColl
         
         // Apply the styling for corner radius, shadow, etc. on the cell
         cell.layer.cornerRadius = 10
-        cell.backgroundColor = UIColor.systemGray3
+        cell.backgroundColor = UIColor.systemGray6
         cell.layer.shadowColor = UIColor.black.cgColor
         cell.layer.shadowOffset = CGSize(width: 0, height: 0)
         cell.layer.shadowRadius = 2.0
