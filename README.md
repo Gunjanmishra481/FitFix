@@ -53,7 +53,6 @@ brew install git-lfs
 git lfs install
 git clone https://github.com/Gunjanmishra481/FitFix.git
 ```
-
 ## Dependencies
 
 - GoogleSignIn
@@ -62,6 +61,3 @@ git clone https://github.com/Gunjanmishra481/FitFix.git
 - GTMAppAuth
 - GTMSessionFetcher
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details. 
