@@ -1,0 +1,879 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17BC92292CD4E6AC00869A1E /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17BC92282CD4E6AC00869A1E /* Media.xcassets */; };
+		17BC92312CD5E46900869A1E /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BC92302CD5E46900869A1E /* WelcomeViewController.swift */; };
+		2912A68C2D0CCA9C00F4D6C5 /* saved_model.pb in Resources */ = {isa = PBXBuildFile; fileRef = 2912A68A2D0CCA9C00F4D6C5 /* saved_model.pb */; };
+		2912A68D2D0CCA9C00F4D6C5 /* variables.data-00000-of-00001 in Resources */ = {isa = PBXBuildFile; fileRef = 2912A6862D0CCA9C00F4D6C5 /* variables.data-00000-of-00001 */; };
+		2912A68E2D0CCA9C00F4D6C5 /* variables.index in Resources */ = {isa = PBXBuildFile; fileRef = 2912A6872D0CCA9C00F4D6C5 /* variables.index */; };
+		2912A68F2D0CCA9C00F4D6C5 /* keras_metadata.pb in Resources */ = {isa = PBXBuildFile; fileRef = 2912A6892D0CCA9C00F4D6C5 /* keras_metadata.pb */; };
+		29E138FA2CE549EA00AB1FA8 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E138DA2CE549EA00AB1FA8 /* DataModel.swift */; };
+		3398F3502D7CC9C200C7A0F0 /* submodel.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 3398F34F2D7CC9C200C7A0F0 /* submodel.mlpackage */; };
+		3398F3512D7CC9C200C7A0F0 /* modelBottom.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 3398F34C2D7CC9C200C7A0F0 /* modelBottom.mlpackage */; };
+		3398F3522D7CC9C200C7A0F0 /* modelTop.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 3398F34E2D7CC9C200C7A0F0 /* modelTop.mlpackage */; };
+		3398F3532D7CC9C200C7A0F0 /* modelShoes.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 3398F34D2D7CC9C200C7A0F0 /* modelShoes.mlpackage */; };
+		42F2E4D186508E259FC76C9B /* Pods_FitFixTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF65B3B04AA1B050B8F55A08 /* Pods_FitFixTests.framework */; };
+		78009B202D10B7320087BB4D /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 78009B1F2D10B7320087BB4D /* FirebaseAnalytics */; };
+		78009B222D10B7320087BB4D /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 78009B212D10B7320087BB4D /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		78009BC02D10C2470087BB4D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78009BBF2D10C2470087BB4D /* User.swift */; };
+		78009BC22D10C2FC0087BB4D /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 78009BC12D10C2FC0087BB4D /* FirebaseAuth */; };
+		78009BC42D10C2FC0087BB4D /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 78009BC32D10C2FC0087BB4D /* FirebaseCore */; };
+		78009BC62D10C2FC0087BB4D /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 78009BC52D10C2FC0087BB4D /* FirebaseFirestore */; };
+		78009BC82D10C2FC0087BB4D /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 78009BC72D10C2FC0087BB4D /* FirebaseStorage */; };
+		BC4DABB8E9129FD3D41711DF /* Pods_FitFix.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C4DA14987BE199CDDC55B1D /* Pods_FitFix.framework */; };
+		DE178C9D0A444AEABAFCF550 /* Pods_FitFix_FitFixUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 573862F5D77A3C958704140A /* Pods_FitFix_FitFixUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17BC920B2CCF7FAB00869A1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17BC91EC2CCF7FAA00869A1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17BC91F32CCF7FAA00869A1E;
+			remoteInfo = FitFix;
+		};
+		17BC92152CCF7FAB00869A1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17BC91EC2CCF7FAA00869A1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17BC91F32CCF7FAA00869A1E;
+			remoteInfo = FitFix;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17BC91F42CCF7FAA00869A1E /* FitFix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitFix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17BC920A2CCF7FAB00869A1E /* FitFixTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitFixTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17BC92142CCF7FAB00869A1E /* FitFixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitFixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17BC92282CD4E6AC00869A1E /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		17BC92302CD5E46900869A1E /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		18D1DF52A74CBE9D1470BED3 /* Pods-FitFix.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitFix.debug.xcconfig"; path = "Target Support Files/Pods-FitFix/Pods-FitFix.debug.xcconfig"; sourceTree = "<group>"; };
+		1C4DA14987BE199CDDC55B1D /* Pods_FitFix.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FitFix.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26EB15B77331C038DCE48FA8 /* Pods-FitFixTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitFixTests.debug.xcconfig"; path = "Target Support Files/Pods-FitFixTests/Pods-FitFixTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2912A6862D0CCA9C00F4D6C5 /* variables.data-00000-of-00001 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "variables.data-00000-of-00001"; sourceTree = "<group>"; };
+		2912A6872D0CCA9C00F4D6C5 /* variables.index */ = {isa = PBXFileReference; lastKnownFileType = file; path = variables.index; sourceTree = "<group>"; };
+		2912A6892D0CCA9C00F4D6C5 /* keras_metadata.pb */ = {isa = PBXFileReference; lastKnownFileType = text; path = keras_metadata.pb; sourceTree = "<group>"; };
+		2912A68A2D0CCA9C00F4D6C5 /* saved_model.pb */ = {isa = PBXFileReference; lastKnownFileType = file; path = saved_model.pb; sourceTree = "<group>"; };
+		29E138DA2CE549EA00AB1FA8 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		334F715DE66BEA5B565A3DEC /* Pods-FitFix-FitFixUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitFix-FitFixUITests.debug.xcconfig"; path = "Target Support Files/Pods-FitFix-FitFixUITests/Pods-FitFix-FitFixUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3398F34C2D7CC9C200C7A0F0 /* modelBottom.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = modelBottom.mlpackage; sourceTree = "<group>"; };
+		3398F34D2D7CC9C200C7A0F0 /* modelShoes.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = modelShoes.mlpackage; sourceTree = "<group>"; };
+		3398F34E2D7CC9C200C7A0F0 /* modelTop.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = modelTop.mlpackage; sourceTree = "<group>"; };
+		3398F34F2D7CC9C200C7A0F0 /* submodel.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = submodel.mlpackage; sourceTree = "<group>"; };
+		573862F5D77A3C958704140A /* Pods_FitFix_FitFixUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FitFix_FitFixUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73337A22A55722A1D206C779 /* Pods-FitFix-FitFixUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitFix-FitFixUITests.release.xcconfig"; path = "Target Support Files/Pods-FitFix-FitFixUITests/Pods-FitFix-FitFixUITests.release.xcconfig"; sourceTree = "<group>"; };
+		78009BBF2D10C2470087BB4D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		9D0E31371DAE046FD3CE48B5 /* Pods-FitFixTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitFixTests.release.xcconfig"; path = "Target Support Files/Pods-FitFixTests/Pods-FitFixTests.release.xcconfig"; sourceTree = "<group>"; };
+		B9CE566FEC317DBCEBF3E777 /* Pods-FitFix.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitFix.release.xcconfig"; path = "Target Support Files/Pods-FitFix/Pods-FitFix.release.xcconfig"; sourceTree = "<group>"; };
+		DF65B3B04AA1B050B8F55A08 /* Pods_FitFixTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FitFixTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		17BC921C2CCF7FAB00869A1E /* Exceptions for "FitFix" folder in "FitFix" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 17BC91F32CCF7FAA00869A1E /* FitFix */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		17BC91F62CCF7FAA00869A1E /* FitFix */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				17BC921C2CCF7FAB00869A1E /* Exceptions for "FitFix" folder in "FitFix" target */,
+			);
+			path = FitFix;
+			sourceTree = "<group>";
+		};
+		17BC920D2CCF7FAB00869A1E /* FitFixTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
+			path = FitFixTests;
+			sourceTree = "<group>";
+		};
+		17BC92172CCF7FAB00869A1E /* FitFixUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
+			path = FitFixUITests;
+			sourceTree = "<group>";
+		};
+		29499B972CE8D60B00E500CA /* Extensions */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17BC91F12CCF7FAA00869A1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78009B202D10B7320087BB4D /* FirebaseAnalytics in Frameworks */,
+				78009BC22D10C2FC0087BB4D /* FirebaseAuth in Frameworks */,
+				78009BC42D10C2FC0087BB4D /* FirebaseCore in Frameworks */,
+				78009BC62D10C2FC0087BB4D /* FirebaseFirestore in Frameworks */,
+				78009B222D10B7320087BB4D /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+				78009BC82D10C2FC0087BB4D /* FirebaseStorage in Frameworks */,
+				BC4DABB8E9129FD3D41711DF /* Pods_FitFix.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17BC92072CCF7FAB00869A1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42F2E4D186508E259FC76C9B /* Pods_FitFixTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17BC92112CCF7FAB00869A1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE178C9D0A444AEABAFCF550 /* Pods_FitFix_FitFixUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17BC91EB2CCF7FAA00869A1E = {
+			isa = PBXGroup;
+			children = (
+				78009BBF2D10C2470087BB4D /* User.swift */,
+				29499B972CE8D60B00E500CA /* Extensions */,
+				29E138DA2CE549EA00AB1FA8 /* DataModel.swift */,
+				17BC92282CD4E6AC00869A1E /* Media.xcassets */,
+				17BC91F62CCF7FAA00869A1E /* FitFix */,
+				17BC920D2CCF7FAB00869A1E /* FitFixTests */,
+				17BC92172CCF7FAB00869A1E /* FitFixUITests */,
+				17BC91F52CCF7FAA00869A1E /* Products */,
+				17BC92302CD5E46900869A1E /* WelcomeViewController.swift */,
+				2912A68B2D0CCA9C00F4D6C5 /* model_top */,
+				1D761D1E6BBF207A8DE2BAF8 /* Pods */,
+				3398F34C2D7CC9C200C7A0F0 /* modelBottom.mlpackage */,
+				3398F34D2D7CC9C200C7A0F0 /* modelShoes.mlpackage */,
+				3398F34E2D7CC9C200C7A0F0 /* modelTop.mlpackage */,
+				3398F34F2D7CC9C200C7A0F0 /* submodel.mlpackage */,
+				B856B8762005E849E81407A5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		17BC91F52CCF7FAA00869A1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17BC91F42CCF7FAA00869A1E /* FitFix.app */,
+				17BC920A2CCF7FAB00869A1E /* FitFixTests.xctest */,
+				17BC92142CCF7FAB00869A1E /* FitFixUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D761D1E6BBF207A8DE2BAF8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				18D1DF52A74CBE9D1470BED3 /* Pods-FitFix.debug.xcconfig */,
+				B9CE566FEC317DBCEBF3E777 /* Pods-FitFix.release.xcconfig */,
+				334F715DE66BEA5B565A3DEC /* Pods-FitFix-FitFixUITests.debug.xcconfig */,
+				73337A22A55722A1D206C779 /* Pods-FitFix-FitFixUITests.release.xcconfig */,
+				26EB15B77331C038DCE48FA8 /* Pods-FitFixTests.debug.xcconfig */,
+				9D0E31371DAE046FD3CE48B5 /* Pods-FitFixTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2912A6852D0CCA9C00F4D6C5 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+		2912A6882D0CCA9C00F4D6C5 /* variables */ = {
+			isa = PBXGroup;
+			children = (
+				2912A6862D0CCA9C00F4D6C5 /* variables.data-00000-of-00001 */,
+				2912A6872D0CCA9C00F4D6C5 /* variables.index */,
+			);
+			path = variables;
+			sourceTree = "<group>";
+		};
+		2912A68B2D0CCA9C00F4D6C5 /* model_top */ = {
+			isa = PBXGroup;
+			children = (
+				2912A6852D0CCA9C00F4D6C5 /* assets */,
+				2912A6882D0CCA9C00F4D6C5 /* variables */,
+				2912A6892D0CCA9C00F4D6C5 /* keras_metadata.pb */,
+				2912A68A2D0CCA9C00F4D6C5 /* saved_model.pb */,
+			);
+			path = model_top;
+			sourceTree = "<group>";
+		};
+		B856B8762005E849E81407A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C4DA14987BE199CDDC55B1D /* Pods_FitFix.framework */,
+				573862F5D77A3C958704140A /* Pods_FitFix_FitFixUITests.framework */,
+				DF65B3B04AA1B050B8F55A08 /* Pods_FitFixTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17BC91F32CCF7FAA00869A1E /* FitFix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17BC921D2CCF7FAB00869A1E /* Build configuration list for PBXNativeTarget "FitFix" */;
+			buildPhases = (
+				CEDC652A2CC77A6F3C4C1366 /* [CP] Check Pods Manifest.lock */,
+				17BC91F02CCF7FAA00869A1E /* Sources */,
+				17BC91F12CCF7FAA00869A1E /* Frameworks */,
+				17BC91F22CCF7FAA00869A1E /* Resources */,
+				D56569537FDC7F5D336C664C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				17BC91F62CCF7FAA00869A1E /* FitFix */,
+				29499B972CE8D60B00E500CA /* Extensions */,
+			);
+			name = FitFix;
+			packageProductDependencies = (
+				78009B1F2D10B7320087BB4D /* FirebaseAnalytics */,
+				78009B212D10B7320087BB4D /* FirebaseAnalyticsWithoutAdIdSupport */,
+				78009BC12D10C2FC0087BB4D /* FirebaseAuth */,
+				78009BC32D10C2FC0087BB4D /* FirebaseCore */,
+				78009BC52D10C2FC0087BB4D /* FirebaseFirestore */,
+				78009BC72D10C2FC0087BB4D /* FirebaseStorage */,
+			);
+			productName = FitFix;
+			productReference = 17BC91F42CCF7FAA00869A1E /* FitFix.app */;
+			productType = "com.apple.product-type.application";
+		};
+		17BC92092CCF7FAB00869A1E /* FitFixTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17BC92222CCF7FAB00869A1E /* Build configuration list for PBXNativeTarget "FitFixTests" */;
+			buildPhases = (
+				C16576FA3DDC7FDA8A03E955 /* [CP] Check Pods Manifest.lock */,
+				17BC92062CCF7FAB00869A1E /* Sources */,
+				17BC92072CCF7FAB00869A1E /* Frameworks */,
+				17BC92082CCF7FAB00869A1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17BC920C2CCF7FAB00869A1E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				17BC920D2CCF7FAB00869A1E /* FitFixTests */,
+			);
+			name = FitFixTests;
+			productName = FitFixTests;
+			productReference = 17BC920A2CCF7FAB00869A1E /* FitFixTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		17BC92132CCF7FAB00869A1E /* FitFixUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17BC92252CCF7FAB00869A1E /* Build configuration list for PBXNativeTarget "FitFixUITests" */;
+			buildPhases = (
+				4E3236CB00D73BC5A1C8674E /* [CP] Check Pods Manifest.lock */,
+				17BC92102CCF7FAB00869A1E /* Sources */,
+				17BC92112CCF7FAB00869A1E /* Frameworks */,
+				17BC92122CCF7FAB00869A1E /* Resources */,
+				4AA2B8BB49ECD8AFE8965FAF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17BC92162CCF7FAB00869A1E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				17BC92172CCF7FAB00869A1E /* FitFixUITests */,
+			);
+			name = FitFixUITests;
+			productName = FitFixUITests;
+			productReference = 17BC92142CCF7FAB00869A1E /* FitFixUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17BC91EC2CCF7FAA00869A1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					17BC91F32CCF7FAA00869A1E = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					17BC92092CCF7FAB00869A1E = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 17BC91F32CCF7FAA00869A1E;
+					};
+					17BC92132CCF7FAB00869A1E = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 17BC91F32CCF7FAA00869A1E;
+					};
+				};
+			};
+			buildConfigurationList = 17BC91EF2CCF7FAA00869A1E /* Build configuration list for PBXProject "FitFix" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17BC91EB2CCF7FAA00869A1E;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				78009B1E2D10B7320087BB4D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 17BC91F52CCF7FAA00869A1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17BC91F32CCF7FAA00869A1E /* FitFix */,
+				17BC92092CCF7FAB00869A1E /* FitFixTests */,
+				17BC92132CCF7FAB00869A1E /* FitFixUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17BC91F22CCF7FAA00869A1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2912A68C2D0CCA9C00F4D6C5 /* saved_model.pb in Resources */,
+				2912A68D2D0CCA9C00F4D6C5 /* variables.data-00000-of-00001 in Resources */,
+				2912A68E2D0CCA9C00F4D6C5 /* variables.index in Resources */,
+				2912A68F2D0CCA9C00F4D6C5 /* keras_metadata.pb in Resources */,
+				17BC92292CD4E6AC00869A1E /* Media.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17BC92082CCF7FAB00869A1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17BC92122CCF7FAB00869A1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4AA2B8BB49ECD8AFE8965FAF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FitFix-FitFixUITests/Pods-FitFix-FitFixUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FitFix-FitFixUITests/Pods-FitFix-FitFixUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FitFix-FitFixUITests/Pods-FitFix-FitFixUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E3236CB00D73BC5A1C8674E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FitFix-FitFixUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C16576FA3DDC7FDA8A03E955 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FitFixTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEDC652A2CC77A6F3C4C1366 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FitFix-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D56569537FDC7F5D336C664C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FitFix/Pods-FitFix-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FitFix/Pods-FitFix-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FitFix/Pods-FitFix-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17BC91F02CCF7FAA00869A1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29E138FA2CE549EA00AB1FA8 /* DataModel.swift in Sources */,
+				78009BC02D10C2470087BB4D /* User.swift in Sources */,
+				3398F3502D7CC9C200C7A0F0 /* submodel.mlpackage in Sources */,
+				3398F3512D7CC9C200C7A0F0 /* modelBottom.mlpackage in Sources */,
+				3398F3522D7CC9C200C7A0F0 /* modelTop.mlpackage in Sources */,
+				3398F3532D7CC9C200C7A0F0 /* modelShoes.mlpackage in Sources */,
+				17BC92312CD5E46900869A1E /* WelcomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17BC92062CCF7FAB00869A1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17BC92102CCF7FAB00869A1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17BC920C2CCF7FAB00869A1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17BC91F32CCF7FAA00869A1E /* FitFix */;
+			targetProxy = 17BC920B2CCF7FAB00869A1E /* PBXContainerItemProxy */;
+		};
+		17BC92162CCF7FAB00869A1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17BC91F32CCF7FAA00869A1E /* FitFix */;
+			targetProxy = 17BC92152CCF7FAB00869A1E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		17BC921E2CCF7FAB00869A1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18D1DF52A74CBE9D1470BED3 /* Pods-FitFix.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z4UNS23JCF;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FitFix/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = personal.FitFix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		17BC921F2CCF7FAB00869A1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9CE566FEC317DBCEBF3E777 /* Pods-FitFix.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z4UNS23JCF;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FitFix/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = personal.FitFix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		17BC92202CCF7FAB00869A1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		17BC92212CCF7FAB00869A1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17BC92232CCF7FAB00869A1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26EB15B77331C038DCE48FA8 /* Pods-FitFixTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = personal.FitFixTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitFix.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FitFix";
+			};
+			name = Debug;
+		};
+		17BC92242CCF7FAB00869A1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D0E31371DAE046FD3CE48B5 /* Pods-FitFixTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = personal.FitFixTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitFix.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FitFix";
+			};
+			name = Release;
+		};
+		17BC92262CCF7FAB00869A1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 334F715DE66BEA5B565A3DEC /* Pods-FitFix-FitFixUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = personal.FitFixUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FitFix;
+			};
+			name = Debug;
+		};
+		17BC92272CCF7FAB00869A1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73337A22A55722A1D206C779 /* Pods-FitFix-FitFixUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = personal.FitFixUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FitFix;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17BC91EF2CCF7FAA00869A1E /* Build configuration list for PBXProject "FitFix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17BC92202CCF7FAB00869A1E /* Debug */,
+				17BC92212CCF7FAB00869A1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17BC921D2CCF7FAB00869A1E /* Build configuration list for PBXNativeTarget "FitFix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17BC921E2CCF7FAB00869A1E /* Debug */,
+				17BC921F2CCF7FAB00869A1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17BC92222CCF7FAB00869A1E /* Build configuration list for PBXNativeTarget "FitFixTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17BC92232CCF7FAB00869A1E /* Debug */,
+				17BC92242CCF7FAB00869A1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17BC92252CCF7FAB00869A1E /* Build configuration list for PBXNativeTarget "FitFixUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17BC92262CCF7FAB00869A1E /* Debug */,
+				17BC92272CCF7FAB00869A1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		78009B1E2D10B7320087BB4D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		78009B1F2D10B7320087BB4D /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 78009B1E2D10B7320087BB4D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		78009B212D10B7320087BB4D /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 78009B1E2D10B7320087BB4D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		78009BC12D10C2FC0087BB4D /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 78009B1E2D10B7320087BB4D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		78009BC32D10C2FC0087BB4D /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 78009B1E2D10B7320087BB4D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		78009BC52D10C2FC0087BB4D /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 78009B1E2D10B7320087BB4D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		78009BC72D10C2FC0087BB4D /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 78009B1E2D10B7320087BB4D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 17BC91EC2CCF7FAA00869A1E /* Project object */;
+}

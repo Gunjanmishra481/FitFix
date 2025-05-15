@@ -1,0 +1,6 @@
+framework module Pods_FitFix {
+  umbrella header "Pods-FitFix-umbrella.h"
+
+  export *
+  module * { export * }
+}

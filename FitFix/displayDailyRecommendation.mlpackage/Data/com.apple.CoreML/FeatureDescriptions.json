@@ -1,0 +1,42 @@
+{
+  "Inputs" : {
+    "gender" : {
+      "MLFeatureShortDescription" : "--"
+    },
+    "season" : {
+      "MLFeatureShortDescription" : "--"
+    },
+    "productDisplayName" : {
+      "MLFeatureShortDescription" : "--"
+    },
+    "baseColour" : {
+      "MLFeatureShortDescription" : "--"
+    },
+    "masterCategory" : {
+      "MLFeatureShortDescription" : "--"
+    },
+    "year" : {
+      "MLFeatureShortDescription" : "--"
+    },
+    "subCategory" : {
+      "MLFeatureShortDescription" : "--"
+    },
+    "articleType" : {
+      "MLFeatureShortDescription" : "--"
+    },
+    "usage" : {
+      "MLFeatureShortDescription" : "--"
+    }
+  },
+  "Outputs" : {
+    "id" : {
+      "MLFeatureShortDescription" : "--"
+    }
+  },
+  "TrainingInputs" : {
+
+  },
+  "States" : {
+
+  }
+}
